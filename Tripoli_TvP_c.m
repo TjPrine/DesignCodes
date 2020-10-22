@@ -6,11 +6,10 @@ clear;
 Tank_total_Pressure_init = 3.1e+7; %Pa
 Tank_total_Temp_init = 298.15; %K
 Thrust_eff = 0.90; % Efficiency of Nozzle
-P_atm = 1e5; %Pa - Exit Pressure Equals Atm pressure
+P_atm = 1.01e5; %Pa - Exit Pressure Equals Atm pressure
 d_star = 4.0e-3; %m
 %d_exit = 2.5e-2; %m
 P_c = .01*Tank_total_Pressure_init; %Pa
-V_tank = 0.00147484/2; %m^3
 k = 1.4; % Specific Heat Ratio
 R_gas = 296; %J/kg/K\
 

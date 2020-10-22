@@ -17,7 +17,7 @@ d_star = 4.0e-3; %m
 P_c = 2.06e6; %Pa
 V_tank = 0.00147484/2; %m^3
 k = 1.4; % Specific Heat Ratio
-R_gas = 287; %J/kg/K\
+R_gas = 297; %J/kg/K\
 
 m_tank_init = Tank_total_Pressure_init*V_tank/R_gas/Tank_total_Temp_init;
 A_star = pi/4*d_star^2;
